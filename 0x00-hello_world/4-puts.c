@@ -1,8 +1,8 @@
 #include <stdio.h>
-int main()
+int main(void)
 {
-char strng[100];
-strcpy(strng, "Programming is like building a multilingual puzzle");
-puts(strng);
-return 0;
+	char c[100]=""Programming is like building a multilingual puzzle \n";
+	puts(c);
+	return 0;
 }
+
