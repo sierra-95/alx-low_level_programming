@@ -1,8 +1,10 @@
 #include <stdio.h>
-
+/**
+ * main function for string
+ */
 int main(void)
 {
-	/*string*/
+
 
 	char c[100]  =  "\"Programming is like building a multilingual puzzle";
 
