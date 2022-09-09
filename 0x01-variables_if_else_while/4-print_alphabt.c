@@ -2,8 +2,8 @@
 int main()
 {
 	int i;
-	char ch[100]="a,b,c,d,f,g,h,i,j,k,l,m,n,o,p,r,s,t,u,v,w,x,y,z";
-	for(i=0;i<47;i++)
+	char ch[100]="abcdfghijklmnoprstuvwxyz";
+	for(i=0;i<25;i++)
 	{
 		putchar(ch[i]);
 	}
