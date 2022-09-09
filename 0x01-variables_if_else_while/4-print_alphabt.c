@@ -7,5 +7,6 @@ int main()
 	{
 		putchar(ch[i]);
 	}
+	putchar('\n');
 	return 0;
 }
