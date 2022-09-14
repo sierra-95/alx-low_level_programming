@@ -1,31 +1,18 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
- *
- * *main ~ function main
- *
- * *Return (0)
- *
- * */
-
+ * main ~ check the code
+ * Return :Always 0.
+ */
 int main(void)
-
 {
-
-		char michael[8] = "_putchar", i;
-
-			
-
-			for(i=0;i<8;i++)
-
-					{
-
-								putchar(michael[i]);
-
-									}
-
-				putchar('\n');
-
-					return (0);
-
+	_putchar('-');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
 }
