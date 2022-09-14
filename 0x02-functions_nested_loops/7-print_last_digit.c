@@ -4,7 +4,7 @@
 *print_last_digit -prints last digit
 *Return:always 0
 **/
-int print_last_digit(int)
+int print_last_digit(int n)
 {
 	int x;
 	if(n<0)
