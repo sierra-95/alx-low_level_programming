@@ -18,7 +18,7 @@ void print_alphabet(void)
 
 
 
-		char c;
+	int c;
 
 
 
@@ -26,10 +26,10 @@ void print_alphabet(void)
 
 					{
 
-								putchar(c);
+								_putchar(c);
 
 									}
-
+			_putchar('\n');
 				
 
 }
