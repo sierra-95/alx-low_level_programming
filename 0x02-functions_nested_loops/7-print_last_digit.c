@@ -1,27 +1,15 @@
 #include "main.h"
-
 /**
- *
- *  * main ~ check the code
- *
- *   * parameter c
- *
- *    *   int c ~ variable
- *
- *     * Return (0) ~ main
- *
- *      * Return (result) ~ in print_last_digit
- *
- *       * */
-
-int print_last_digit(int c)
-
+*main -executes
+*print_last_digit -prints last digit
+*Return:always 0
+**/
+int print_last_digit(int)
 {
-
-		int result = c%10;
-
-			
-
-			return result;
-
+	int x;
+	if(n<0)
+	n=-n;
+	x=n%10;
+	_putchar(x + '0');
+	return (x);
 }
