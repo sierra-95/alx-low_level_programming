@@ -8,46 +8,9 @@
  *
  *    * c ~ isalpha variable
  *
- *     * Return (1) if alphabet
- *
- *      * Return (0) if not
- *
- *       * */
-
+ *     * Return (1) if alpha is true
+ *     */
 int _isalpha(int c)
-
 {
-
-
-
-		
-
-		if(64<c<90)
-
-				{
-
-						  if(96<c<123)
-
-							  	  {
-
-									  	  	return 1;
-
-												  }
-
-						  	}
-
-			else
-
-					{
-
-								return 0;
-
-									}
-
-				
-
-				
-
-				
-
+	return ((c>='a' && c<='z')||(c>='A' && c<= 'Z'));
 }
