@@ -22,11 +22,17 @@ int _isalpha(int c)
 
 		
 
-		if(isalpha(c)==0)
+		if(64<c<90)
 
 				{
 
-						  return (0);
+						  if(96<c<123)
+
+							  	  {
+
+									  	  	return 1;
+
+												  }
 
 						  	}
 
@@ -34,14 +40,14 @@ int _isalpha(int c)
 
 					{
 
-								return (1);
+								return 0;
 
 									}
 
-				return 0;
+				
 
-					
+				
 
-					
+				
 
 }
