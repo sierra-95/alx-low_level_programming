@@ -18,7 +18,7 @@ int print_last_digit(int c)
 
 {
 
-		int result=c%10;
+		int result=c(37)10;
 
 			
 
