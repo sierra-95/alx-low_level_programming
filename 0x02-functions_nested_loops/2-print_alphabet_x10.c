@@ -4,46 +4,19 @@ void print_alphabet_x10(void);
 
 /**
  *
- * * main function ~ has the content
- *
- * * void print_alphabet(void)
- *
- * *void
- *
- * *Return (0)
- *
- * **/
-
+ * main -execute
+ * Return :always 0
+ * print_alphabet_x10 -prints
+ * */
 void print_alphabet_x10(void)
-
 {
-
-
-
-		int i=0,j;
-
-		    char mike[26]="abcdefghijklmnopqrstuvwxyz";
-
-
-
-		    	while(i<10)
-
-					{
-
-								for(j=0;j<26;j++)
-
-											{
-
-															putchar(mike[j]);
-
-																		
-
-																	}
-
-										putchar('\n');
-
-												i++;
-
-													}
-
+	int j,x;
+	for(x=0;x<10:x++)
+	{
+		for(j='a';j<='z';j++)
+		{
+			_putchar(j);
+		}
+		putchar('\n');
+	}
 }
