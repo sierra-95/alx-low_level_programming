@@ -2,7 +2,7 @@
 
 /**
  * main - prints the largest prime factor
- * Return - always 0
+ * Return:  always (0)
  * */
  
  int main(void)
@@ -10,7 +10,7 @@
      long number = 612852475143;
      int inc;
      
-     while (inc++ < number /2)
+     while (inc++ < number / 2)
      {
          if ( number % inc == 0)
          {
