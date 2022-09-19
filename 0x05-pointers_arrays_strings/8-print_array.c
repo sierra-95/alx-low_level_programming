@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  *print_array - check the code
- * @a: variable
- * @b: variable 2
+ * @a: points to elements
+ * @b:  times to print elements
  *Return: No
  */
 void print_array(int *a, int n)
