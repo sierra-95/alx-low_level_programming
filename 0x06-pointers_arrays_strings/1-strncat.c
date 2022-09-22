@@ -5,7 +5,7 @@
 * @src: string to be completed
 * @n: integer parameter to compare index to
 * Return: returns concanated string
-* */
+*/
 char *_strncat(char *dest, char *src, int n)
 {
 int index = 0, dest_len = 0;
