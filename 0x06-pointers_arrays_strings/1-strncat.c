@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*  *_strncat - concanates but with input bytes
+* _strncat - concanates but with input bytes
 * @dest: string to be appended
 * @src: string to be completed
 * @n: integer parameter to compare index to
