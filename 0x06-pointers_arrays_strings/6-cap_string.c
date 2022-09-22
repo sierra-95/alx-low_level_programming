@@ -3,8 +3,8 @@
 * *cap_string - All first letters changed to  uppercase
 * @str: parameter to capitalize
 * Return: return is a character in uppercase
-* */
-char *cap_string(char *)
+**/
+char *cap_string(char *str)
 {
 int index = 0;
     
