@@ -19,7 +19,7 @@ return (prime_finder(x, y + 1));
 /**
 * is_prime_number - returns if a number is prime
 *
-*@n: number to determine primeness of 
+*@n:number to determine primeness of 
 *
 * Return: 1 if prime, 0 otherwise
 */
