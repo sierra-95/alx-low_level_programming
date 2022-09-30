@@ -5,7 +5,7 @@
 @argv - vector command
 *Return: Always zero
 */
-int main(int argc, char *argv[])
+int main(int argc)
 {
 printf ("%d", argc);
 printf("\n");
