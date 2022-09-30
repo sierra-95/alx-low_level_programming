@@ -12,7 +12,7 @@ printf ("%d", argc);
 for (i = 0; i < argc; i++)
 {
 if(argc > 5)
-print("%s", argv[i])
+printf("%s", argv[i]);
 }
 printf("\n");
 return 0;
