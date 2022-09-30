@@ -17,8 +17,12 @@ for (i = 1; i < argc; i++)
 printf("%s\n", argv[i]);
   mult *= atoi(argv[i]);
 }
-  }
-printf("\n");
+}
+else
+{
+printf("Error");
+}
+printf("%d\n",mult);
 return 0;
 }
  
