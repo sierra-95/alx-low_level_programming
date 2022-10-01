@@ -18,7 +18,7 @@ printf("%s\n", argv[i]);
   mult *= atoi(argv[i]);
 }
 }
-if(argc == 0)
+else if(argc == 0)
 {
 printf("Error");
 }
