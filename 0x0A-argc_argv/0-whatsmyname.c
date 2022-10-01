@@ -1,9 +1,10 @@
+#include "main.h"
 #include <stdio.h>
 /**
-*main - carries out
-*@argc - count
-*@argv - vector command
-*Return: Always zero
+* main - prints name of programe
+* @argc - number of command line argument
+* @argv - array name
+* Return: 0
 */
 int main (int argc,char *argv[])
 {
