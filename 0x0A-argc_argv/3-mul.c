@@ -1,28 +1,32 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+#include "main.h"
+
 /**
-*main - carries out
-*@argc - count
-@argv - vector command
-*Return: Always zero
+* main - Program that takes first two integer arguments and prints the product
+* @argc: Number of command line arguments
+* @argv: Array name
+* Return: 1 if not enough arguments passed in, 0 otherwise
 */
+
 int main(int argc, char *argv[])
 {
-int i,mult = 0;
-if(argc > 1)
+int i, j;
+
+if (argc == 1 || argc == 2)
 {
-for (i = 1; i < argc; i++)
+printf("Error\n");
+return (1);
+}
+else
 {
-printf("%s\n", argv[i]);
-  mult *= atoi(argv[i]);
+j = 1;
+
+for (i = 1; i < 3; i++)
+j *= atoi(argv[i]);
+
+printf("%d\n", j);
 }
+
+return (0);
 }
-else if(argc == 0)
-{
-printf("Error");
-}
-printf("%d\n",mult);
-return 0;
-}
- 
