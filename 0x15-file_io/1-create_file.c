@@ -6,6 +6,12 @@
 #include <fcntl.h>
 #include "holberton.h"
 #include <unistd.h>
+/**
+ * read_textfile - returns the actual number of letters it could read and print
+ * @filename: file to read and print
+ * @letters: number of letters to print
+ * Return: the number or letters
+ */
 
 
 int create_file(const char *filename, char *text_content)
