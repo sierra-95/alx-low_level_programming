@@ -6,7 +6,12 @@
 #include <fcntl.h>
 #include "main.h"
 #include <unistd.h>
-
+/**
+ * read_textfile - returns the actual number of letters it could read and print
+ * filename: file to read and print
+ * letters: number of letters to print
+ * return: the number or letters
+ */
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
